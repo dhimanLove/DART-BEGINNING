@@ -45,7 +45,13 @@ main(){
     return;
    
   }
-
+  if(num2/2==0){
+    print("even");
+  }
+  else
+  {
+    print("odd");
+  }
     print(" \t \"Le Result , Mze kar \"\t  ",); print(Result);
 
 }
