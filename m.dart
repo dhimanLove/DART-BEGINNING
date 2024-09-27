@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main(){
-  print(" \n \" Calculation karne me alas aa raha hai ? , Mai hu na \" \n");
+  print(" \n    \"Calculation me alas ? , Mai hu na \" \n");
 
   // 1st number 
   print("Chal First Number Dal");
@@ -11,13 +11,14 @@ main(){
   print("Ab Second Dal",);
   double num2 = double.parse(stdin.readLineSync()!);// stdin ka use hota hai user se input ki hui value read krne ke liye and "stdout ka use out put ko showcase karne k liye hota hai printstdout ko bhejta hai value print krne  "
 
-  print("  \t \" Bol kya evaluate kru in dono numbers se ? \" \t \n");
+  print(" \n    \" Bol kya evaluate kru in dono numbers se ? \" \t \n");
 
   
   print("1" " Add kru ?");
   print("2" " Substract kru ?");
   print("3" " Multiply kru ?");
   print("4" " Divide kru ?");
+  print("\t");
   String operation = stdin.readLineSync()!;
 
   double Result;
@@ -45,13 +46,13 @@ main(){
     return;
    
   }
-  if(num2/2==0){
-    print("even");
+  if(Result % 2==0){
+    print("    \" Result is even \" \t");
   }
-  else
+  else if (Result % 2!=0)
   {
-    print("odd");
+    print("    \" Result is odd \" \t");
   }
-    print(" \t \"Le Result , Mze kar \"\t  ",); print(Result);
+    print(" \t \n \" Le Result , Ab  Mze kar \" \n \t  ",); print(Result);
 
 }
