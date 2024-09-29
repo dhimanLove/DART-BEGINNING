@@ -9,8 +9,8 @@ main(){
   var prod=num1*num2;
   var div=num1/num2;
 
-  print(add);
-  print(sub);
-  print(prod);
-  print(div);
+  print("addition is ");print(add);
+  print("Substraction is ");print(sub);
+  print("Product is ");print(prod);
+  print("Division is ");print(div);
 }
