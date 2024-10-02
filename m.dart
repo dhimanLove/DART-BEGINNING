@@ -8,12 +8,12 @@ main(){
   double num1 = double.parse(stdin.readLineSync()!); //! use of it ?
 
   //2nd number
-  print("Ab Second Dal",);
+  print("Ab Second Dal");
   double num2 = double.parse(stdin.readLineSync()!);// stdin ka use hota hai user se input ki hui value read krne ke liye and "stdout ka use out put ko showcase karne k liye hota hai printstdout ko bhejta hai value print krne  "
 
   print(" \n    \" Bol kya evaluate kru in dono numbers se ? \" \t \n");
 
-  
+  while(true){
   print("1" " Add kru ?");
   print("2" " Substract kru ?");
   print("3" " Multiply kru ?");
@@ -55,4 +55,5 @@ main(){
   }
     print(" \t \n \" Le Result , Ab  Mze kar \" \n \t  ",); print(Result);
 
+} 
 }
