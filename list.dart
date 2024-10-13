@@ -16,20 +16,27 @@ main() {
 
     if (choice == '1') {
       print('Kya add kru =');
+
       String? item = stdin.readLineSync();
+
       if (item != null && item.isNotEmpty) {
         Saman.add(item);
         print('$item Added ;)');
       }
-    } else if (choice == '2') {
+    } 
+    else if (choice == '2') {
       print('Kya nikalu :|');
+
       String? item = stdin.readLineSync();
+
       if (Saman.remove(item)) {
         print('$item removed :/ ');
-      } else {
+      }
+       else {
         print('$item object ni mila -_- .');
       }
-    } else if (choice == '3') {
+    }
+     else if (choice == '3') {
       print('Kya Dhundu =');
       String? item = stdin.readLineSync();
       if (Saman.contains(item)) {
@@ -37,12 +44,15 @@ main() {
       } else {
         print('$item ni mila -_- .');
       }
-    } else if (choice == '4') {
+    } 
+    else if (choice == '4') {
       print('Saman: ${Saman.join(', ')}');
-    } else if (choice == '5') {
+    } 
+    else if (choice == '5') {
       print(' Tuc Mat Jao :{ ');
       break;
-    } else {
+    }
+     else {
       print('Bro Range se Bahr :( ');
     }
   }
