@@ -2,7 +2,7 @@ import 'dart:math';
 import 'dart:io';
 
 void main() {
-  // Input values of a, b, and c
+  // a, b, and c ki values enter kro
   print("Enter a:");
   double a = double.parse(stdin.readLineSync()!);
 
@@ -12,7 +12,7 @@ void main() {
   print("Enter c:");
   double c = double.parse(stdin.readLineSync()!);
 
-  // Calculate the discriminant
+  // Discriminant calculate karo56Y7Y
   double discriminant = b * b - 4 * a * c;
 
   if (discriminant > 0) {
@@ -25,7 +25,7 @@ void main() {
     // One real solution
     double root = -b / (2 * a);
     print("One real solution: $root");
-    
+
   } else {
     // No real solution
     print("No real solutions, discriminant is negative.");
