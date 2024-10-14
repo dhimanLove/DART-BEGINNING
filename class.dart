@@ -7,15 +7,15 @@ class Person {
   Person(this.name, this.age);
 
   // Method to display info
-  void showInfo() {
+  void Info() {
     print("Name: $name, Age: $age");
   }
 }
 
 void main() {
   // Creating an object of Person
-  Person person1 = Person("John", 25);
+  Person person1 = Person("Loveraj", 19);
 
   // Calling the method
-  person1.showInfo();
+  person1.Info();
 }
